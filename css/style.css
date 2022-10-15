@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #6c757d;
+    padding-top: 60px;
+}
+#nav1{
+    background-color: rgb(95, 95, 95);
+     opacity: 0.7;   
+}
+#logo:hover{
+    transition: .4s;
+    text-shadow: 1px 1px 2px black,4px 4px 25px white, -4px -4px 5px white;
+}
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+.nav-link:hover{
+    text-shadow: 1px 1px 1px white;
+}
+.dropdown-item:hover{
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgb(39, 39, 39);
+}
+.btn-dark:hover{
+    background-color: lightgray;
+    color: black;
+}
+.h{
+    height: 565px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.backgroundImage{
+    height: 300px;
+    background-image: url(../images/bc1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imageheight{
+    height: 250px;
+}
+.backgroundImage2{
+    background-image: url(../images/bc2.webp);
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #3b3c3d;
+}
+a i{
+    font-size: 28px;
+}
+.header{
+    padding: 10px;
+    border-top: 2px solid #91a3b6;
+    border-bottom: 2px solid #91a3b6;
+}
+.info a{
+    color: wheat;
+    text-decoration: underline;
+}
+.b{
+    margin-top: 15px;
+     margin-bottom: 55px;
+     padding: 10px;
+     border-top: 2px solid #91a3b6;
+     border-bottom: 2px solid #91a3b6;
+}
+.arrow {
+    color: black;
+    font-size: large;
+    transition: all 0.4s ease;
+    float: right;
+}
+.bt:focus .arrow {
+    transform: rotateZ(-180deg);
+    color: #7bace0;
+}
+.card-header:hover{
+    background-color: rgba(141, 138, 138, 0.35);
+}
+.secondRow{
+    justify-content: center;
+}
+
+.copybtn{
+    position: relative;
+}
+.copybtn div{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.copybtn p{
+    font-size: 20px;
+}
+
+.toltip {
+    position: relative;
+    display: inline-block;
+}
+
+.toltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.toltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.toltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    height: 9px;
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(235, 229, 229);
+}
+::-webkit-scrollbar-thumb {
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+
+@media(max-width : 576px) {
+    /* heigth of carousl*/
+    .h {
+        height: 420px;
+    }
+    /* width of first section*/
+    .p{
+        width: 80% !important;
+    }
+    .programming{
+        width: 95% !important;
+    }
+    .language{
+        width: 100% !important;
+    }
+    .language h3 {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    .language p{
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+@media(max-width : 970px) {
+    .language {
+        width: 100% !important;
+    }
+     .language h3 {
+         font-size: 18px;
+         white-space: nowrap;
+     }
+}
