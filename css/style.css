@@ -163,9 +163,16 @@ a i{
     }
     .programming{
         width: 110% !important;
+        margin-left:-20px !important;
+    }
+    .language-container{
+        width: 110% !important;
+        margin-left:-20px !important;
     }
     .language{
-        width: 110% !important;
+        width: 100% !important;
+        /* margin-left:-20px !important; */
+        }
     }
     .language h3 {
         font-size: 18px;
@@ -175,7 +182,7 @@ a i{
         overflow-x: scroll;
         white-space: nowrap;
     }
-}
+
 @media(max-width : 970px) {
     .language {
         width: 100% !important;
