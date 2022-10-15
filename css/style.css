@@ -185,14 +185,5 @@ a i{
          white-space: nowrap;
      }
 }
-@media(max-width : 768px) {
-    .language {
-        width: 100% !important;
-    }
 
-    .language h3 {
-        font-size: 18px;
-        white-space: nowrap;
-    }
-}
 
